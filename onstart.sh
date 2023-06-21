@@ -1,6 +1,2 @@
 #!/bin/bash
-current_loc=$(pwd)
-objs_here=$(ls)
-echo "The current working directory : $current_loc"
-echo "Objects here : $objs_here"
-pip install -r /Workspace/Repos/jonah_blumstein@mckinsey.com/databricks-kedro-iris/src/requirements.txt
+pip install 'black~=22.0' 'flake8>=3.7.9, <4.0' 'ipython~=8.10' 'isort~=5.0' 'jupyter~=1.0' 'jupyterlab~=3.0' 'kedro~=0.18.10' 'kedro-viz~=6.0' 'kedro-datasets[pandas.CSVDataSet]~=1.0' 'kedro-telemetry~=0.2.0' 'nbstripout~=0.4' 'packaging==23.1' 'pytest-cov~=3.0' 'pytest-mock>=1.7.1, <2.0' 'pytest~=7.2'
